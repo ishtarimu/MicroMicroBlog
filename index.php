@@ -42,7 +42,7 @@ $content = explode ("&#182;", file_get_contents("cache"));
 						echo "<a href=\"#";
 						echo $content[$i];
 						echo "\">";
-						echo "<span class='w3-text-blue-grey w3-small'>  ";
+						echo " <span class='w3-text-blue-grey w3-small'>";
 						echo $content[$i++];
 						echo "</span></a></h2></div><div class=\"w3-container\"><p>";
 						echo $content[$i++];
