@@ -1,5 +1,5 @@
 # MicroMicroBlog
-micro blog for significant people
+Micro blog for significant people.
 
 ## Edit
 ### Edit index.php
@@ -16,17 +16,17 @@ $Links = array (
 	);
 ```
 ### Edit add.php
-chose your security code
+Chose your security code.
 
 You can generate it [here](https://www.random.org/strings/?num=1&len=20&digits=on&upperalpha=on&loweralpha=on&unique=on&format=plain&rnd=new)
 ```php
 $code = "your code";
 ```
 ## Install
-just upload the two files.
+Just upload the two files.
 
 ## Add content
-go to `your-blog.com\add.php` and fill the form.
+Go to `your-blog.com\add.php` and fill the form.
 
 Push *Hop !*
 
