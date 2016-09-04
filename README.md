@@ -3,7 +3,7 @@ Micro blog for significant people.
 
 ## Edit
 ### Edit index.php
-Put your blog title here
+Put your blog title
 ```php
 $Title = "your site title";
 ```
