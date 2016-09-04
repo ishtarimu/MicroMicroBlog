@@ -10,11 +10,11 @@ $h = "ADD";
 if (isset($_POST['code'])){
 	if ($_POST['code'] == $code){
 		$content = 	"&#182;"
-					. $_POST['titre']
+					. mb_convert_encoding($_POST['titre'], "UTF-8")
 					."&#182;" 
 					. time()
 					."&#182;"
-					. $_POST['txt'];
+					. mb_convert_encoding($_POST['txt'], "UTF-8");
 		$cacheFile = fopen("cache", "a+");
 		if (! fwrite($cacheFile, $content)){
 			$h ="Unable to write cache !";
