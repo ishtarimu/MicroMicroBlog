@@ -18,7 +18,7 @@ $Links = array (
 ### Edit add.php
 chose your security code
 
-You can generate it [here](https://www.random.org/strings/?num=1&len=20&digits=on&upperalpha=on&loweralpha=on&unique=on&format=html&rnd=new)
+You can generate it [here](https://www.random.org/strings/?num=1&len=20&digits=on&upperalpha=on&loweralpha=on&unique=on&format=plain&rnd=new)
 ```php
 $code = "your code";
 ```
