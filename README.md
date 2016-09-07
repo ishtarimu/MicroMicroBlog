@@ -33,3 +33,8 @@ Push *Hop !*
 ## Tips
 If you want to link to a particular post you can copy the link from the time stamp number of the post title.
 
+## TODO
+* check all the <\> (order of body head etc...)
+* put the #timestamp in the ID attr of timestamp span
+
+
