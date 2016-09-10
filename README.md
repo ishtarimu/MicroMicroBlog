@@ -3,6 +3,10 @@ Micro blog for significant people.
 
 ## Edit
 ### Edit index.php
+Put your [langage code](https://www.w3.org/International/questions/qa-choosing-language-tags)
+```html
+<html lang=" HERE ">
+```
 Put your blog title
 ```php
 $Title = "your site title";
@@ -18,7 +22,7 @@ $Links = array (
 ### Edit add.php
 Chose your security code.
 
-You can generate it [here](https://www.random.org/strings/?num=1&len=20&digits=on&upperalpha=on&loweralpha=on&unique=on&format=plain&rnd=new)
+You can generate it [at random.org](https://www.random.org/strings/?num=1&len=20&digits=on&upperalpha=on&loweralpha=on&unique=on&format=plain&rnd=new)
 ```php
 $code = "your code";
 ```
@@ -34,7 +38,7 @@ Push *Hop !*
 If you want to link to a particular post you can copy the link from the time stamp number of the post title.
 
 ## TODO
-* check all the <\> (order of body head etc...)
-* put the #timestamp in the ID attr of timestamp span
+* ~check all the <\> (order of body head etc...)~
+* ~put the #timestamp in the ID attr of timestamp span~
 
 

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="fr">
 <?php
 	$Title = "your site title";
 	$Links = array (
@@ -11,7 +12,6 @@
 <?php
 $content = explode ("&#182;", file_get_contents("cache"));
 ?>
-<html>
     <head>
         <meta charset="UTF-8">
         <title><?php echo $Title ?></title>
@@ -23,9 +23,8 @@ $content = explode ("&#182;", file_get_contents("cache"));
 			a {text-decoration:none;}
 			p>a{ color:#607d8b;}
 		</style>
-<body class="w3-light-grey">
     </head>
-    <body>
+    <body class="w3-light-grey">
 		<div  class="w3-content" style="max-width:1400px">
 			<div class="w3-container w3-center w3-padding-32 w3-blue-grey">
 				<h1><?php echo $Title; ?></h1>
@@ -34,10 +33,9 @@ $content = explode ("&#182;", file_get_contents("cache"));
 				<?php
 					$i = 1;
 					while ($i < count($content)){
-						echo "<a name =\"";
+						echo "<div id=\"";
 						echo $content[$i+1];
-						echo "\"></a>";
-						echo "<div class=\"w3-card-4 w3-margin w3-white\"><div class=\"w3-container  w3-padding-8\"><h2>";
+						echo "\" class=\"w3-card-4 w3-margin w3-white\"><div class=\"w3-container  w3-padding-8\"><h2>";
 						echo $content[$i++];
 						echo " <a href=\"#";
 						echo $content[$i];
@@ -59,6 +57,5 @@ $content = explode ("&#182;", file_get_contents("cache"));
 				?>
 			</div>
 		</div>
-		
     </body>
 </html>
